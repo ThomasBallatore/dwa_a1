@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 	<title>Thomas Ballatore</title>
@@ -45,19 +45,22 @@
 
 		<?php
 
-			$quotes = Array('Our greatest happiness does not depend on the condition
-			of life in which chance has placed us, but is always the result of a good
-			conscience, good health, occupation, and freedom in all just pursuits.
+			$quotes = Array('The price of freedom is eternal vigilance.
 			<br><br>-Thomas Jefferson',
+			'The truth is that all men having power ought to be mistrusted.
+			<br><br>-James Madison',
 			'Do I not destroy my enemies when I make them my friends?
 			<br><br>-Abraham Lincoln',
-			'America was not built on fear. America was built on courage, on
-			imagination and an unbeatable determination to do the job at hand.
+			'America was not built on fear. America was built on courage.
 			<br><br>-Harry Truman',
+			'If we have no sense of community, the American dream will wither.
+			<br><br>-William Jefferson Clinton',
 			'My fingers are long and beautiful, as, it has been well documented, are
 			various other parts of my body.
 			<br><br>-Donald Trump',
 			'When you are a star they let you do anything.
+			<br><br>-Donald Trump',
+			'Nobody builds walls better than me, believe me!
 			<br><br>-Donald Trump');
 
 			echo $quotes[array_rand($quotes)];
